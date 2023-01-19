@@ -40,7 +40,7 @@ header h1 {
     display: flex;
 }
 
-input button{
+input, button{
     appearance: none;
     border: none;
     outline: none;
