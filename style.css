@@ -63,4 +63,7 @@ input, button{
 
 #todo-list-submit{
     color: var(--pink);
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-image: linear-gradient(to right, var(--pink), var(--purple));
 }
