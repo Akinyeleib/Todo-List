@@ -43,5 +43,6 @@ header h1 {
 input button{
     appearance: none;
     border: none;
-    outline: none   ;
+    outline: none;
+    background: none;
 }
