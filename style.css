@@ -56,3 +56,11 @@ input, button{
     color: var(--light);
     font-size: 1.25rem;
 }
+
+#todo-input::placeholder{
+    color: var(--gray);
+}
+
+#todo-list-submit{
+    color: var(--pink);
+}
