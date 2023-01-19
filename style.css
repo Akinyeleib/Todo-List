@@ -66,4 +66,26 @@ input, button{
     font-size: 1.25rem;
     font-weight: 700;
     background-image: linear-gradient(to right, var(--pink), var(--purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    transition: 0.4s;
 }
+
+#todo-list-submit:hover{
+    opacity: 0.8;
+}
+
+#todo-list-submit:active{
+    opacity: 0.5;
+}
+
+main{
+    flex: 1 1 0%;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
