@@ -82,7 +82,6 @@ input, button{
 
 main{
     flex: 1 1 0%;
-    padding: 2rem 1rem;
     max-width: 800px;
     width: 100%;
     margin: 0 auto;
@@ -91,5 +90,12 @@ main{
 
 .task-list{
     padding: 1rem;
+}
+
+.task-list h2{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--gray);
+    margin-bottom: 1rem;
 }
 
