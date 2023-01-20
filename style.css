@@ -134,3 +134,10 @@ main{
     transition: 0.4s;
 }
 
+#todo-list-submit:hover{
+    opacity: 0.8;
+}
+
+#todo-list-submit:active{
+    opacity: 0.5;
+}
