@@ -116,3 +116,6 @@ main{
     transition: 0.4s;
 }
 
+#task .task .content .text:not(:read-only){
+    color: var(--pink);
+}
