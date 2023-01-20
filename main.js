@@ -22,14 +22,16 @@ window.addEventListener('load', () => {
         task_el.appendChild(task_content_el);
 
         const task_input_el = document.createElement("input");
-        task_input_el.type = "text"; 
-        task_input_el.classList.add("text");
+       task_input_el.classList.add("text");
+       
+       task_input_el.type = "text"; 
+        
         task_input_el.value = task;
         task_input_el.setAttribute("readonly", "readonly");
 
         task_content_el.appendChild(task_input_el);
 
-        list_el,appendChild(task_el)
+        list_el,appendChild(task_el);
 
     })
 })
