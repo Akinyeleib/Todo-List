@@ -110,6 +110,8 @@ main{
 
 #task .task .content .text{
     color: var(--light);
-    
-
+    font-size: 1.25rem;
+    width: 100%;
+    display: block;
+    transition: 0.4s;
 }
