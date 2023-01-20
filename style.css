@@ -108,7 +108,8 @@ main{
     margin-bottom: 1rem;
 }
 
-#task .task .content{
-    color: #fff;
+#task .task .content .text{
+    color: var(--light);
     
+
 }
