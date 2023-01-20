@@ -134,7 +134,7 @@ main{
     transition: 0.4s;
 }
 
-#todo-list-submit:hover{
+.task .action button:hover{
     opacity: 0.8;
 }
 
