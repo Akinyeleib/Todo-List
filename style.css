@@ -138,6 +138,6 @@ main{
     opacity: 0.8;
 }
 
-#todo-list-submit:active{
+.task .action button:active{
     opacity: 0.5;
 }
