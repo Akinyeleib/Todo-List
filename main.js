@@ -36,4 +36,7 @@ window.addEventListener('load', () => {
     })
 })
 
-const input = document.querySelector("todo-input");
+const btn_submit = document.getElementById("todo-list-submit");
+btn_submit.addEventListener("click", () => {
+    alert("Hi");
+});
