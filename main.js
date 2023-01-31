@@ -35,3 +35,5 @@ window.addEventListener('load', () => {
 
     })
 })
+
+const input = document.querySelector("todo-input");
