@@ -1,3 +1,5 @@
+/*
+
 window.addEventListener('load', () => {
     const form = document.querySelector("todo-list");
     const input = document.querySelector("todo-input");
@@ -36,7 +38,18 @@ window.addEventListener('load', () => {
     })
 })
 
+*/
+
+// var todo_text = document.getElementById("todo-text");
+// var todo_input = document.getElementById("todo-input");
+
+
+const input_ = document.getElementById("todo-input");
 const btn_submit = document.getElementById("todo-list-submit");
-btn_submit.addEventListener("click", () => {
-    alert("Hi");
+
+btn_submit.addEventListener("click", (e) => {
+    // var txt = todo_input.innerText;
+    // console.log(`text is: ${todo_input.innerHTML} .`);
+    alert(input_.value);
+    console.log("Hello.");
 });
